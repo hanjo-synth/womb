@@ -1,33 +1,52 @@
-WOMB Bassline
-WOMB is a random bassline generator script for Monome Norns, created by HANJO (Tokyo, Japan).
-It generates 16-step bassline patterns synced to Norns' internal clock, with real-time control over scale, root note, and note density. WOMB can output sound internally via the PolyPerc engine or externally via MIDI over USB.
+# **WOMB BASSLINE**
 
-Features
-K2: Toggle output mode (Internal / MIDI) and hold to adjust MIDI Channel with E3
+**WOMB** is a random bassline generator script for **Monome Norns**, created by **HANJO** (Tokyo, Japan).  
+It generates **16-step bassline patterns** synced to Norns' internal clock, with real-time control over **scale**, **root note**, and **note density**.  
+WOMB outputs either **internal sound** via the `PolyPerc` engine or **MIDI notes** over USB.
 
-K3: Generate a new 16-step random bassline
+---
 
-E1: Select musical scale
+## **FEATURES**
 
-E2: Set root note
+- **`K2`**: Toggle Output Mode (`INT` / `MIDI`)  
+  - Hold **`K2`** + turn **`E3`** to adjust MIDI channel
+- **`K3`**: Generate a new 16-step random bassline
+- **`E1`**: Select musical scale
+- **`E2`**: Set root note
+- **`E3`**: Adjust note density (number of active steps)
 
-E3: Adjust note density (number of active steps)
+---
 
-Outputs
-INT (Internal): Plays basslines through the built-in PolyPerc engine
+## **OUTPUTS**
 
-MIDI: Sends basslines as MIDI notes over USB to external gear
+- **`INT`** (Internal):
+  - Plays basslines through the built-in `PolyPerc` synth engine
+- **`MIDI`**:
+  - Sends bassline notes via USB MIDI to external devices
 
-Technical Details
-Uses Norns global tempo and internal clock-sync
+---
 
-Real-time visual feedback on scale, root note, density, output mode, and MIDI channel
+## **TECHNICAL DETAILS**
 
-Scale quantization and transposition when changing scales and root notes
+- Uses **Norns global tempo** (internal clock-sync)
+- Real-time screen feedback:
+  - Scale, Root Note, Density, Output Mode, and MIDI Channel
+- **Scale Quantization** when switching scales
+- **Root Note Transposition** without breaking sequences
+- **Fully randomized 16-step patterns** with every trigger
 
-Full 16-step pattern randomization on demand
+---
 
-Requirements
-Monome Norns (any model)
+## **REQUIREMENTS**
 
-Optional: External MIDI device via USB
+- **Monome Norns** (any model)
+- **Optional**: External MIDI device connected via USB
+
+---
+
+## **CREDITS**
+
+- Script by **HANJO**  
+- Tokyo, Japan 🇯🇵
+
+---
