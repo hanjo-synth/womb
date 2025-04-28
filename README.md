@@ -4,6 +4,8 @@
 It generates **16-step bassline patterns** synced to Norns' internal clock, with real-time control over **scale**, **root note**, and **note density**.  
 WOMB outputs either **internal sound** via the `PolyPerc` engine or **MIDI notes** over USB.
 
+**Author:** HANJO – Tokyo, Japan 🇯🇵
+
 ---
 
 ## **FEATURES**
@@ -41,12 +43,5 @@ WOMB outputs either **internal sound** via the `PolyPerc` engine or **MIDI notes
 
 - **Monome Norns** (any model)
 - **Optional**: External MIDI device connected via USB
-
----
-
-## **CREDITS**
-
-- Script by **HANJO**  
-- Tokyo, Japan 🇯🇵
 
 ---
