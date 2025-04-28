@@ -1,4 +1,4 @@
-# **WOMB BASSLINE**
+# **WOMB**
 
 **WOMB** is a random bassline generator script for **Monome Norns**, created by **HANJO** (Tokyo, Japan).  
 It generates **16-step bassline patterns** synced to Norns' internal clock, with real-time control over **scale**, **root note**, and **note density**.  
